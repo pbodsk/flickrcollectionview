@@ -1,0 +1,1 @@
+A simple playground app trying out cocoapods, AFNetworking and UICollectionViews...at least that's the plan.
