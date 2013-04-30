@@ -32,20 +32,21 @@
 				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
-			<object class="IBUICollectionViewCell" id="981335984">
+			<object class="IBUICollectionViewCell" id="748457467">
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">268</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUIView" id="637652893">
-						<reference key="NSNextResponder" ref="981335984"/>
+					<object class="IBUIView" id="282399873">
+						<reference key="NSNextResponder" ref="748457467"/>
 						<int key="NSvFlags">256</int>
 						<array class="NSMutableArray" key="NSSubviews">
-							<object class="IBUIImageView" id="395073461">
-								<reference key="NSNextResponder" ref="637652893"/>
+							<object class="IBUIImageView" id="924454751">
+								<reference key="NSNextResponder" ref="282399873"/>
 								<int key="NSvFlags">274</int>
 								<string key="NSFrameSize">{300, 400}</string>
-								<reference key="NSSuperview" ref="637652893"/>
-								<reference key="NSNextKeyView" ref="127503473"/>
+								<reference key="NSSuperview" ref="282399873"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="1032344538"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -54,21 +55,23 @@
 									<string key="NSResourceName">flickImageBackground.png</string>
 								</object>
 							</object>
-							<object class="IBUIImageView" id="127503473">
-								<reference key="NSNextResponder" ref="637652893"/>
+							<object class="IBUIImageView" id="1032344538">
+								<reference key="NSNextResponder" ref="282399873"/>
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{20, 38}, {260, 260}}</string>
-								<reference key="NSSuperview" ref="637652893"/>
-								<reference key="NSNextKeyView" ref="16405156"/>
+								<reference key="NSSuperview" ref="282399873"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView" ref="630271351"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
-							<object class="IBUILabel" id="16405156">
-								<reference key="NSNextResponder" ref="637652893"/>
+							<object class="IBUILabel" id="630271351">
+								<reference key="NSNextResponder" ref="282399873"/>
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{20, 338}, {260, 21}}</string>
-								<reference key="NSSuperview" ref="637652893"/>
+								<reference key="NSSuperview" ref="282399873"/>
+								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -96,9 +99,10 @@
 							</object>
 						</array>
 						<string key="NSFrameSize">{300, 400}</string>
-						<reference key="NSSuperview" ref="981335984"/>
-						<reference key="NSNextKeyView" ref="395073461"/>
-						<object class="NSColor" key="IBUIBackgroundColor" id="604692213">
+						<reference key="NSSuperview" ref="748457467"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="924454751"/>
+						<object class="NSColor" key="IBUIBackgroundColor" id="340446427">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
 						</object>
@@ -111,16 +115,17 @@
 				</array>
 				<string key="NSFrameSize">{300, 400}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSNextKeyView" ref="637652893"/>
+				<reference key="NSWindow"/>
+				<reference key="NSNextKeyView" ref="282399873"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
-				<reference key="IBUIBackgroundColor" ref="604692213"/>
+				<reference key="IBUIBackgroundColor" ref="340446427"/>
 				<bool key="IBUIOpaque">NO</bool>
 				<bool key="IBUIClipsSubviews">YES</bool>
 				<int key="IBUIContentMode">4</int>
 				<bool key="IBUIMultipleTouchEnabled">YES</bool>
 				<string key="IBUIRestorationIdentifier">flickrImageCell</string>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-				<reference key="IBUIContentView" ref="637652893"/>
+				<reference key="IBUIContentView" ref="282399873"/>
 			</object>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -129,7 +134,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">imageView</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="127503473"/>
+						<reference key="destination" ref="1032344538"/>
 					</object>
 					<int key="connectionID">19</int>
 				</object>
@@ -137,7 +142,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">imageText</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="16405156"/>
+						<reference key="destination" ref="630271351"/>
 					</object>
 					<int key="connectionID">20</int>
 				</object>
@@ -145,7 +150,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">backgroundView</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="395073461"/>
+						<reference key="destination" ref="924454751"/>
 					</object>
 					<int key="connectionID">21</int>
 				</object>
@@ -171,30 +176,30 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">3</int>
-						<reference key="object" ref="981335984"/>
+						<reference key="object" ref="748457467"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="16405156"/>
-							<reference ref="127503473"/>
-							<reference ref="395073461"/>
+							<reference ref="630271351"/>
+							<reference ref="1032344538"/>
+							<reference ref="924454751"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">4</int>
-						<reference key="object" ref="395073461"/>
+						<reference key="object" ref="924454751"/>
 						<array class="NSMutableArray" key="children"/>
-						<reference key="parent" ref="981335984"/>
+						<reference key="parent" ref="748457467"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">13</int>
-						<reference key="object" ref="127503473"/>
+						<reference key="object" ref="1032344538"/>
 						<array class="NSMutableArray" key="children"/>
-						<reference key="parent" ref="981335984"/>
+						<reference key="parent" ref="748457467"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">18</int>
-						<reference key="object" ref="16405156"/>
-						<reference key="parent" ref="981335984"/>
+						<reference key="object" ref="630271351"/>
+						<reference key="parent" ref="748457467"/>
 					</object>
 				</array>
 			</object>
@@ -215,7 +220,53 @@
 			<nil key="sourceID"/>
 			<int key="maxID">21</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">PhotoCollectionViewCell</string>
+					<string key="superclassName">UICollectionViewCell</string>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="backgroundView">UIImageView</string>
+						<string key="imageText">UILabel</string>
+						<string key="imageView">UIImageView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="backgroundView">
+							<string key="name">backgroundView</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="imageText">
+							<string key="name">imageText</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="imageView">
+							<string key="name">imageView</string>
+							<string key="candidateClassName">UIImageView</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/PhotoCollectionViewCell.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">UICollectionReusableView</string>
+					<string key="superclassName">UIView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/UICollectionReusableView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">UICollectionViewCell</string>
+					<string key="superclassName">UICollectionReusableView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/UICollectionViewCell.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>

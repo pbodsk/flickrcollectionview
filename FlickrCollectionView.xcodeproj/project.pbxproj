@@ -23,6 +23,8 @@
 		AD903120172FE9EC005CF34B /* flickImageBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = AD90311F172FE9EC005CF34B /* flickImageBackground.png */; };
 		AD903123172FEA99005CF34B /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AD903122172FEA99005CF34B /* PhotoCollectionViewCell.m */; };
 		AD903125172FEAE3005CF34B /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD903124172FEAE3005CF34B /* PhotoCollectionViewCell.xib */; };
+		AD903129172FFB02005CF34B /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD903127172FFB02005CF34B /* EmitterViewController.m */; };
+		AD90312A172FFB02005CF34B /* EmitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD903128172FFB02005CF34B /* EmitterViewController.xib */; };
 		C4DFAB0843A24303BC943636 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E663961DF574813978B08E3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,9 @@
 		AD903121172FEA99005CF34B /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		AD903122172FEA99005CF34B /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		AD903124172FEAE3005CF34B /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD903126172FFB02005CF34B /* EmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
+		AD903127172FFB02005CF34B /* EmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
+		AD903128172FFB02005CF34B /* EmitterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmitterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +129,9 @@
 				AD903121172FEA99005CF34B /* PhotoCollectionViewCell.h */,
 				AD903122172FEA99005CF34B /* PhotoCollectionViewCell.m */,
 				AD903124172FEAE3005CF34B /* PhotoCollectionViewCell.xib */,
+				AD903126172FFB02005CF34B /* EmitterViewController.h */,
+				AD903127172FFB02005CF34B /* EmitterViewController.m */,
+				AD903128172FFB02005CF34B /* EmitterViewController.xib */,
 			);
 			path = FlickrCollectionView;
 			sourceTree = "<group>";
@@ -217,6 +225,7 @@
 				AD4D2D5F1725C7B000CA159B /* ViewController.xib in Resources */,
 				AD903120172FE9EC005CF34B /* flickImageBackground.png in Resources */,
 				AD903125172FEAE3005CF34B /* PhotoCollectionViewCell.xib in Resources */,
+				AD90312A172FFB02005CF34B /* EmitterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +259,7 @@
 				AD0B18D81725CDAA00B86845 /* Photo.m in Sources */,
 				AD0B18DB1725D06F00B86845 /* Photos.m in Sources */,
 				AD903123172FEA99005CF34B /* PhotoCollectionViewCell.m in Sources */,
+				AD903129172FFB02005CF34B /* EmitterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

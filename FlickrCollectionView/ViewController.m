@@ -12,6 +12,7 @@
 #import "Photo.h"
 #import "AFNetworking.h"
 #import "PhotoCollectionViewCell.h"
+#import "EmitterViewController.h"
 
 @interface ViewController () {
     Photos *_photos;
@@ -27,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"Flickr collection view";
     _cellIdentifier = @"flickrImageCell";
     NSURL *flickrRecentUrl = [NSURL URLWithString:@"http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=243e49e3df56d6a7662063417af912c4&format=json&nojsoncallback=1"];
     NSURLRequest *request = [NSURLRequest requestWithURL:flickrRecentUrl];
@@ -81,4 +83,10 @@
 }
 
 
+- (IBAction)emitterPressed:(id)sender {
+    NSLog(@"pressed");
+    EmitterViewController *emitterViewController = [EmitterViewController new];
+    [self.navigationController pushViewController:emitterViewController animated:YES];
+
+}
 @end

@@ -11,4 +11,5 @@
 @interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 @property (strong, nonatomic) IBOutlet UICollectionView *imageCollectionView;
 
+- (IBAction)emitterPressed:(id)sender;
 @end
