@@ -21,8 +21,11 @@
     returnValue.secret = [json valueForKey:@"secret"];
     returnValue.server = [json valueForKey:@"server"];
     returnValue.title = [json valueForKey:@"title"];
-    
     return returnValue;
+}
+
+- (NSString *)imageUrl {
+    return [NSString stringWithFormat:@"http://farm%@.staticflickr.com/%@/%@_%@.jpg", self.farm, self.server, self.id, self.secret];
 }
 
 @end

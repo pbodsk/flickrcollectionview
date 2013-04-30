@@ -20,4 +20,5 @@
 @property (nonatomic, strong) NSString *title;
 
 + (Photo *)newWithJson:(NSDictionary *)json;
+- (NSString *)imageUrl;
 @end
