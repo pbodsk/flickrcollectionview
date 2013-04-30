@@ -30,12 +30,23 @@
     emitterLayer.emitterSize = CGSizeMake(10, 10);
 
     CAEmitterCell *boubble = [CAEmitterCell emitterCell];
-    boubble.birthRate = 100;
-    boubble.lifetime = 10;
+    boubble.birthRate = 1;
+    boubble.lifetime = 1;
     boubble.lifetimeRange = 1;
-    boubble.color = [UIColor blueColor].CGColor;
-    boubble.contents = (id)[UIImage imageNamed:@"boubble.png"].CGImage;
+    boubble.color = [UIColor redColor].CGColor;
+    boubble.contents = (id)[UIImage imageNamed:@"Particles_fire"].CGImage;
+//    boubble.contents = (id)[UIImage imageNamed:@"boubble"].CGImage;
     boubble.name = @"boubble";
+    
+    boubble.velocity = 10;
+    boubble.velocityRange = 1;
+//    boubble.emissionRange = M_PI_2;
+/*
+    boubble.scaleSpeed = 0.3;
+    boubble.spin = 0.5;
+  */
+    emitterLayer.renderMode = kCAEmitterLayerAdditive;
+
 
     emitterLayer.emitterCells = [NSArray arrayWithObject:boubble];
 

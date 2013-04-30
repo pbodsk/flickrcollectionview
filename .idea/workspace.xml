@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c542565d-91ab-49cb-af66-f89745e699c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterView.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView.xcworkspace/xcuserdata/jb3579.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/FlickrCollectionView.xcworkspace/xcuserdata/jb3579.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/FlickrCollectionView.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.xib" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.xib" />
     </list>
     <ignored path="FlickrCollectionView.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,7 +79,7 @@
       <file leaf-file-name="EmitterView.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="26" selection-start="719" selection-end="719" vertical-scroll-proportion="0.62218046">
+            <state line="36" column="56" selection-start="878" selection-end="885" vertical-scroll-proportion="0.5291202">
               <folding />
             </state>
           </provider>
@@ -191,8 +185,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FlickrCollectionView.xcworkspace" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FlickrCollectionView.xcworkspace" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Application.FlickrCollectionView">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Pods" TARGET_NAME="Pods" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -227,7 +222,6 @@
     <frame x="0" y="22" width="1680" height="955" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -235,12 +229,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39928058" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3297362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -364,44 +359,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/PhotoCollectionViewCell.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/PhotoCollectionViewCell.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="62" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FlickrCollectionView/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="84" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/AppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="57" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="581" selection-end="724" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -413,9 +373,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="57" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="581" selection-end="724" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/PhotoCollectionViewCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="62" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/PhotoCollectionViewCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterView.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="26" selection-start="719" selection-end="719" vertical-scroll-proportion="0.62218046">
+        <state line="36" column="56" selection-start="878" selection-end="885" vertical-scroll-proportion="0.5291202">
           <folding />
         </state>
       </provider>

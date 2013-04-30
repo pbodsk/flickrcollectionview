@@ -27,6 +27,7 @@
 		AD90312A172FFB02005CF34B /* EmitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD903128172FFB02005CF34B /* EmitterViewController.xib */; };
 		AD90312D172FFDB2005CF34B /* EmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90312C172FFDB2005CF34B /* EmitterView.m */; };
 		AD90312F1730001F005CF34B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD90312E1730001F005CF34B /* QuartzCore.framework */; };
+		ADDF8AA4173049850066E861 /* Particles_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = ADDF8AA3173049850066E861 /* Particles_fire.png */; };
 		C4DFAB0843A24303BC943636 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E663961DF574813978B08E3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		AD90312B172FFDB2005CF34B /* EmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterView.h; sourceTree = "<group>"; };
 		AD90312C172FFDB2005CF34B /* EmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterView.m; sourceTree = "<group>"; };
 		AD90312E1730001F005CF34B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADDF8AA3173049850066E861 /* Particles_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particles_fire.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		AD90311E172FE9EC005CF34B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				ADDF8AA3173049850066E861 /* Particles_fire.png */,
 				AD90311F172FE9EC005CF34B /* flickImageBackground.png */,
 			);
 			path = Images;
@@ -235,6 +238,7 @@
 				AD903120172FE9EC005CF34B /* flickImageBackground.png in Resources */,
 				AD903125172FEAE3005CF34B /* PhotoCollectionViewCell.xib in Resources */,
 				AD90312A172FFB02005CF34B /* EmitterViewController.xib in Resources */,
+				ADDF8AA4173049850066E861 /* Particles_fire.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

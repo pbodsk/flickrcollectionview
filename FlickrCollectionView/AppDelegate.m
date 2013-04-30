@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "EmitterViewController.h"
 
 @implementation AppDelegate
 
@@ -16,7 +17,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    ViewController *viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+//  ViewController *viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    EmitterViewController *viewController = [[EmitterViewController alloc]initWithNibName:@"EmitterViewController" bundle:nil];
+    
 
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
 //    self.viewController = navigationController;
