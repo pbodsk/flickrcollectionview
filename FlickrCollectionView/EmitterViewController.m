@@ -7,6 +7,7 @@
 //
 
 #import "EmitterViewController.h"
+#import "EmitterView.h"
 
 @interface EmitterViewController ()
 
@@ -26,7 +27,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+//    EmitterView *emitterView = [[EmitterView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+//    [self.view addSubview:emitterView];
+
 }
 
 - (void)didReceiveMemoryWarning

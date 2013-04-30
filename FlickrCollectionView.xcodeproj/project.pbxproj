@@ -25,6 +25,8 @@
 		AD903125172FEAE3005CF34B /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD903124172FEAE3005CF34B /* PhotoCollectionViewCell.xib */; };
 		AD903129172FFB02005CF34B /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD903127172FFB02005CF34B /* EmitterViewController.m */; };
 		AD90312A172FFB02005CF34B /* EmitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD903128172FFB02005CF34B /* EmitterViewController.xib */; };
+		AD90312D172FFDB2005CF34B /* EmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90312C172FFDB2005CF34B /* EmitterView.m */; };
+		AD90312F1730001F005CF34B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD90312E1730001F005CF34B /* QuartzCore.framework */; };
 		C4DFAB0843A24303BC943636 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E663961DF574813978B08E3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,9 @@
 		AD903126172FFB02005CF34B /* EmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
 		AD903127172FFB02005CF34B /* EmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
 		AD903128172FFB02005CF34B /* EmitterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmitterViewController.xib; sourceTree = "<group>"; };
+		AD90312B172FFDB2005CF34B /* EmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterView.h; sourceTree = "<group>"; };
+		AD90312C172FFDB2005CF34B /* EmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterView.m; sourceTree = "<group>"; };
+		AD90312E1730001F005CF34B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD90312F1730001F005CF34B /* QuartzCore.framework in Frameworks */,
 				AD4D2D431725C7B000CA159B /* UIKit.framework in Frameworks */,
 				AD4D2D451725C7B000CA159B /* Foundation.framework in Frameworks */,
 				AD4D2D471725C7B000CA159B /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +95,7 @@
 		AD4D2D361725C7B000CA159B = {
 			isa = PBXGroup;
 			children = (
+				AD90312E1730001F005CF34B /* QuartzCore.framework */,
 				AD4D2D481725C7B000CA159B /* FlickrCollectionView */,
 				AD4D2D411725C7B000CA159B /* Frameworks */,
 				AD4D2D401725C7B000CA159B /* Products */,
@@ -132,6 +139,8 @@
 				AD903126172FFB02005CF34B /* EmitterViewController.h */,
 				AD903127172FFB02005CF34B /* EmitterViewController.m */,
 				AD903128172FFB02005CF34B /* EmitterViewController.xib */,
+				AD90312B172FFDB2005CF34B /* EmitterView.h */,
+				AD90312C172FFDB2005CF34B /* EmitterView.m */,
 			);
 			path = FlickrCollectionView;
 			sourceTree = "<group>";
@@ -260,6 +269,7 @@
 				AD0B18DB1725D06F00B86845 /* Photos.m in Sources */,
 				AD903123172FEA99005CF34B /* PhotoCollectionViewCell.m in Sources */,
 				AD903129172FFB02005CF34B /* EmitterViewController.m in Sources */,
+				AD90312D172FFDB2005CF34B /* EmitterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

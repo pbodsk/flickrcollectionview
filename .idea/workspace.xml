@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c542565d-91ab-49cb-af66-f89745e699c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterView.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView.xcworkspace/xcuserdata/jb3579.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/FlickrCollectionView.xcworkspace/xcuserdata/jb3579.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/FlickrCollectionView.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView/AppDelegate.m" afterPath="$PROJECT_DIR$/FlickrCollectionView/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView/PhotoCollectionViewCell.xib" afterPath="$PROJECT_DIR$/FlickrCollectionView/PhotoCollectionViewCell.xib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView/ViewController.h" afterPath="$PROJECT_DIR$/FlickrCollectionView/ViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView/ViewController.m" afterPath="$PROJECT_DIR$/FlickrCollectionView/ViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView/en.lproj/ViewController.xib" afterPath="$PROJECT_DIR$/FlickrCollectionView/en.lproj/ViewController.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.xib" afterPath="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.xib" />
     </list>
     <ignored path="FlickrCollectionView.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,6 +46,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="EmitterViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="581" selection-end="724" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlickrCollectionView/AppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,13 +64,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewController.m" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmitterView.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="11" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmitterViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="31" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmitterView.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="26" selection-start="719" selection-end="719" vertical-scroll-proportion="0.62218046">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewController.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlickrCollectionView/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="84" selection-start="3091" selection-end="3091" vertical-scroll-proportion="1.2601156">
-              <folding>
-                <element signature="e#156#182#0" expanded="true" />
-              </folding>
+            <state line="88" column="84" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,6 +116,8 @@
         <option value="$PROJECT_DIR$/FlickrCollectionView/PhotoCollectionViewCell.m" />
         <option value="$PROJECT_DIR$/FlickrCollectionView/AppDelegate.m" />
         <option value="$PROJECT_DIR$/FlickrCollectionView/ViewController.m" />
+        <option value="$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m" />
+        <option value="$PROJECT_DIR$/FlickrCollectionView/EmitterView.m" />
       </list>
     </option>
   </component>
@@ -161,6 +192,7 @@
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/FlickrCollectionView.xcworkspace" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RunManager" selected="Application.FlickrCollectionView">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Pods" TARGET_NAME="Pods" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -265,16 +297,49 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/FlickrCollectionView/EmitterView.m</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FlickrCollectionView/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="84" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="57" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/PhotoCollectionViewCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="62" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/PhotoCollectionViewCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="0" selection-start="2849" selection-end="2849" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#156#182#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -295,9 +360,7 @@
     <entry file="file://$PROJECT_DIR$/FlickrCollectionView/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="103" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#156#182#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -315,6 +378,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="84" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FlickrCollectionView/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="57" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
@@ -322,12 +392,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/ViewController.m">
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="84" selection-start="3091" selection-end="3091" vertical-scroll-proportion="1.2601156">
-          <folding>
-            <element signature="e#156#182#0" expanded="true" />
-          </folding>
+        <state line="10" column="11" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="581" selection-end="724" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrCollectionView/EmitterView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="26" selection-start="719" selection-end="719" vertical-scroll-proportion="0.62218046">
+          <folding />
         </state>
       </provider>
     </entry>
